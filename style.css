@@ -1,23 +1,41 @@
+@media (prefers-color-scheme: dark) {
+     :root {
+        --layer-bg: #000;
+        --layer-mid: #121212;
+        --layer-fg: #1F1F1F;
+        --text: #E0E0E0;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+     :root {
+        --layer-bg: #D8D8D8;
+        --layer-mid: #EEEEEE;
+        --layer-fg: #fff;
+        --text: #212121;
+    }
+}
+
+
 /* Global */
 
 body {
-	font-family: Rubik;
-	font-size: 16px;
-	line-height: 1.5;
-	
-	background-color: #EEEEEE;
-	color: #212121;
-	margin: 35px 10px 40px 10px;
+    font-family: Rubik;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: var(--layer-mid);
+    color: var(--text);
+    margin: 35px 10px 40px 10px;
 }
 
 img {
-  margin: 0 auto;
-  display: block;
-  height:  auto;
+    margin: 0 auto;
+    display: block;
+    height: auto;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .container {
@@ -26,33 +44,35 @@ a {
     margin: 0 auto;
 }
 
+
 /* Header */
 
 .logo-header {
-  width: 128px;
+    width: 128px;
 }
 
 .bio {
-  text-align: center;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 
 /* Links */
 
 .link {
     display: block;
-    background-color: #fff;
-    color: #212121;
+    background-color: var(--layer-fg);
+    color: var(--text);
     text-align: center;
     font-size: 1rem;
     font-weight: 600;
     padding: 15px 0 15px 0;
     margin: 12px 0 11px 0;
-    border: 2px solid #D8D8D8;
+    border: 2px solid var(--layer-bg);
 }
 
 .link:hover {
-    color: #212121;
-    background-color: #D8D8D8;
+    color: var(--text);
+    background-color: var(--layer-bg);
 }
