@@ -1,1 +1,1 @@
-The website hosted on [yasan.dev](https://yasan.dev/).
+The website hosted on [yasan.glass](https://yasan.glass/).
