@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "16:30"
+      timezone: "Europe/Prague"
+    labels:
+      - 'actions'
+      - 'dependencies'
+    open-pull-requests-limit: 3
+    assignees:
+      - "yasanglass"
