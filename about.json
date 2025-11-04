@@ -1,50 +1,41 @@
 {
   "developer": {
     "name": "Yasan Glass",
-    "about": "Developer & Designer",
+    "biography": "Developer & Designer",
     "links": [
       {
-        "id": "bluesky",
         "name": "Bluesky",
         "url": "https://bsky.app/profile/yasan.glass"
       },
       {
-        "id": "discord",
         "name": "Discord",
         "url": "https://discord.gg/8BQrfyA"
       },
       {
-        "id": "email",
         "name": "Email",
         "url": "mailto:yasanglass@gmail.com"
       },
       {
-        "id": "github",
         "name": "GitHub",
         "url": "https://github.com/yasanglass"
       },
       {
-        "id": "gumroad",
         "name": "Gumroad",
         "url": "https://yasanglass.gumroad.com"
       },
       {
-        "id": "mastodon",
         "name": "Mastodon",
         "url": "https://mastodon.social/@yasanglass"
       },
       {
-        "id": "play_store",
         "name": "Play Store",
         "url": "https://play.google.com/store/apps/dev?id=5035207490031558874"
       },
       {
-        "id": "telegram",
         "name": "Telegram",
         "url": "https://t.me/YASANupdates"
       },
       {
-        "id": "website",
         "name": "Website",
         "url": "https://yasan.glass"
       }
